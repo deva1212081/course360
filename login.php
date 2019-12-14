@@ -28,7 +28,6 @@
 
 include 'connect.php';
 
-session_start();
 
 if (isset($_POST['name'])) {
 	$name=$_POST['name'];
@@ -39,29 +38,14 @@ $sql= "SELECT * FROM registration WHERE name='".$name."' AND password='".$passwo
 $select=mysqli_query($connect,$sql);
 
 
-while ($result=mysqli_fetch_assoc($select)) {
-	
-	$name=$result['name'];
-	$password=$result['password'];
-
-	if ($password!=$password || $name!=$name) {
-		echo "Incorrect Details";
-	}
-	else{
-		$_SESSION['name']=$name;
-	header('location:home.php');
-	}
 
 
+if(mysqli_num_rows($result)==1){
 
-}
-
-/*if(mysqli_num_rows($result)==1){
-	$_SESSION['name']=$name;
 	header('location:index.php');
 }else{
 	echo "check chesko ra...";
-}die;*/
+}die;
 
 }
 
