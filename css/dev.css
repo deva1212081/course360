@@ -1,0 +1,172 @@
+.bg-gra-01 {
+   background: linear-gradient(-135deg, #c850c0, #4158d0 );
+}
+
+
+.p-t-180 {
+  padding-top: 80px;
+}
+
+.p-t-10 {
+  padding-top: 10px;
+}
+
+.p-b-100 {
+  padding-bottom: 20px;
+}
+
+.wrapper {
+  margin: 0 auto;
+}
+
+
+.wrapper--w780 {
+  max-width: 780px;
+}
+
+
+.btn {
+  display: inline-block;
+  line-height: 40px;
+  padding: 0 33px;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.4s ease;
+  font-size: 18px;
+  background: #57b846;
+  border-radius: 20px;
+}
+.btn:hover{
+  background: #4d4d4d;
+  color: #fff;
+}
+
+input {
+  outline: none;
+  margin: 0;
+  border: none;
+   box-shadow: none;
+  width: 100%;
+  font-size: 14px;
+  }
+
+.input-icon {
+  position: absolute;
+  font-size: 18px;
+  color: #ccc;
+  right: 8px;
+  top: 50%;
+   transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 20px;
+  
+}
+
+.input--style-3 {
+  padding: 10px 0 10px 20px;
+  font-size: 16px;
+  color: #000;
+  background: transparent;
+}
+
+.title {
+  font-size: 24px;
+  color: #000;
+  font-weight: 400;
+  margin-bottom: 36px;
+}
+
+.card {
+  overflow: hidden;
+   border-radius: 3px;
+  background: #fff;
+}
+
+.card-3 {
+  background: #fff;
+   border-radius: 10px;
+   box-shadow: 8px 8px 10px ;
+  width: 100%;
+  display: table;
+  padding: 70px;
+}
+
+.card-3 .card-heading {
+  background: url("../Images/form-banner.png") no-repeat;
+
+  display: table-cell;
+  width: 50%
+}
+
+.card-3 .card-body {
+  padding: 0px 0px 15px 70px;
+  padding-bottom: 25px;
+  display: table-cell;
+}
+
+.input-group{
+  border: 1px solid lightgrey;
+  border-radius: 20px;
+  background:#dedddc;
+  padding: 20px, 0px 20px 20px;
+}
+
+
+.login_icon{
+  color: #4d4d4d;
+}
+
+
+.input-group:visited {
+  color: #57b846;
+}
+
+.forgot{
+  margin: 15px 0px 10px 0px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.forgot{
+    margin-left: 3px;
+
+  }
+
+
+.forgot_user{
+  margin: 15px 0px 40px 0px;
+  color: #666666;
+  font-size: 12px;
+}
+
+.forgot_user:hover{
+  color: #57b846;
+
+}
+
+a:hover{
+  color:#57b846;
+}
+
+.create_account{
+  position: absolute;
+  margin: auto;
+  margin-top: 40px;
+
+}
+
+div>i{
+  padding-left: 10px; 
+}
+
+
+.create_account:hover{
+ 
+  color: #57b846;
+  text-decoration: underline;
+}
+
